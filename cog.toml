@@ -1,0 +1,10 @@
+pre_bump_hooks = []
+post_bump_hooks = ["git push", "git push origin {{version}}"]
+
+[changelog]
+path = "CHANGELOG.md"
+template = "remote"
+remote = "github.com"
+repository = "npm"
+owner = "thalo-rs"
+authors = [{ signature = "Ari Seyhun", username = "tqwewe" }]

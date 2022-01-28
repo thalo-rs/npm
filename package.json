@@ -1,0 +1,9 @@
+{
+  "name": "thalo",
+  "version": "0.1.0",
+  "description": "Event sourcing for Thalo",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/thalo-rs/npm",
+  "author": "Ari Seyhun <ariseyhun@live.com.au>",
+  "license": "MIT"
+}
